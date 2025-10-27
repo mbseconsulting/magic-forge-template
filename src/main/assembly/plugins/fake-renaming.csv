@@ -1,0 +1,8 @@
+pattern,new_name,is_regex,scope,enabled,description
+^OldClass$,NewClass,true,global,true,Exact class rename
+OldPrefix_(.*),NewPrefix_$1,true,package:com.example,true,Rename prefix in package
+temp,temporary,false,global,true,Simple substring replacement
+Model v1,Model_v1,false,global,false,Disabled example rule
+^([A-Za-z]+)\s+Controller$,$1Ctrl,true,global,true,Strip 'Controller' suffix
+^(.+)-old$,$1,true,module:legacy,true,Remove -old suffix in legacy module
+

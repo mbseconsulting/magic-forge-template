@@ -1,0 +1,1 @@
+println "This is a fake Groovy script for testing purposes."
